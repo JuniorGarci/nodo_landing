@@ -2,6 +2,10 @@ import { useTypewriter } from 'react-simple-typewriter';
 import { useState, useEffect, useRef } from 'react';
 import { FaPlus, FaMinus, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'; // Importa los iconos que necesites
 import image1 from './images/image1.png';
+import ana from './images/ana.png';
+import juan from './images/juan.jpg';
+import carlos from './images/carlos.jpg';
+import nodo from './images/nodo.png';
 
 const LandingPage = () => {
   const [text] = useTypewriter({
@@ -60,7 +64,7 @@ const LandingPage = () => {
       {/* Header */}
       <header className="bg-white shadow-md py-1">
         <div className="container mx-auto flex justify-between items-center px-6">
-          <h1 className="text-3xl font-bold text-[#E0793F]">Nodo</h1>
+        <img src={nodo} alt="NODO" className=" w-11 h-10  " />
           <nav>
             <a href="#how-it-works" className="text-[#27403D] hover:text-[#E0793F] mx-2">Cómo Funciona</a>
             <a href="https://ui-nodo-dev.azurewebsites.net/login" target="_blank" rel="noopener noreferrer" className="bg-[#E0793F] text-white px-3.5 py-2 rounded-md hover:bg-orange-600 text-xs sm:text-base md:text-lg">Iniciar Sesión</a>
@@ -119,17 +123,17 @@ const LandingPage = () => {
             <h3 className="text-3xl font-bold text-[#27403D] mb-8">Testimonios</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gray-50 p-14 rounded-lg shadow-md">
-                <img src="/src/images/juan.jpg" alt="Juan P." className="rounded-full w-20 h-20 mx-auto mb-4" />
+                <img src={juan} alt="Juan P." className="rounded-full w-20 h-20 mx-auto mb-4" />
                 <p className="text-gray-600 mb-4">Gracias a Nodo pude obtener el préstamo que necesitaba con una tasa increíble.</p>
                 <h4 className="text-[#27403D] font-bold">Juan Perez</h4>
               </div>
               <div className="bg-gray-50 p-14 rounded-lg shadow-md">
-                <img src="/src/images/ana.jpg" alt="Ana L." className="rounded-full w-20 h-20 mx-auto mb-4" />
+                <img src={ana} alt="Ana L." className="rounded-full w-20 h-20 mx-auto mb-4" />
                 <p className="text-gray-600 mb-4">El proceso fue rápido y sin complicaciones. Muy recomendable.</p>
                 <h4 className="text-[#27403D] font-bold">Ana Borges</h4>
               </div>
               <div className="bg-gray-50 p-14 rounded-lg shadow-md">
-                <img src="/src/images/carlos.jpg" alt="Carlos G." className="rounded-full w-20 h-20 mx-auto mb-4" />
+                <img src={carlos} alt="Carlos G." className="rounded-full w-20 h-20 mx-auto mb-4" />
                 <p className="text-gray-600 mb-4">Recibí ofertas personalizadas y pude escoger la mejor para mí.</p>
                 <h4 className="text-[#27403D] font-bold">Carlos Gil</h4>
               </div>

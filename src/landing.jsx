@@ -61,7 +61,7 @@ const LandingPage = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col">
-      {/* Header */}
+     
       <header className="bg-white shadow-md py-1">
         <div className="container mx-auto flex justify-between items-center px-6">
         <img src={nodo} alt="NODO" className=" w-11 h-10  " />
@@ -72,42 +72,42 @@ const LandingPage = () => {
         </div>
       </header>
 
-      {/* Main Section */}
+      
       <main className="flex-grow">
         <section className="bg-white py-5">
           <div className="container mx-auto text-center">
-            {/* Imagen responsiva */}
+          
             <img
               src={image1}
-              alt="Descripción de la imagen"
+              alt="imagen"
               className="mx-auto mb-6 md:w-1/3 lg:w-1/4 sm:w-1/2 h-auto"
             />
             <div className="relative z-10">
               <h2 className="text-4xl font-bold text-[#27403D] mb-6">{text}</h2>
               <p className="text-gray-600 mb-12">Accede a préstamos con condiciones personalizadas y obtén el financiamiento que necesitas.</p>
-              <a href="#apply" className="bg-[#E0793F] text-white py-3 px-8 rounded-full hover:bg-orange-600 text-lg">Iniciar Solicitud</a>
+              <a href="https://ui-nodo-dev.azurewebsites.net/registre" className="bg-[#E0793F] text-white py-3 px-8 rounded-full hover:bg-orange-600 text-lg">Iniciar Solicitud</a>
             </div>
           </div>
         </section>
 
-        {/* How it Works Section */}
+        
         <section id="how-it-works" className="bg-gray-100 py-16 z-30">
           <div className="container mx-auto z-40">
             <h3 className="text-3xl font-bold text-center text-[#27403D] mb-8">¿Cómo Funciona?</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Step 1 */}
+           
               <div className="text-center">
                 <div className="text-[#E0793F] text-6xl mb-4">1</div>
                 <h4 className="text-xl font-bold text-[#27403D] mb-2">Completa tu Solicitud</h4>
                 <p className="text-gray-600">Proporciona tus datos y selecciona el monto y el plazo.</p>
               </div>
-              {/* Step 2 */}
+             
               <div className="text-center">
                 <div className="text-[#E0793F] text-6xl mb-4">2</div>
                 <h4 className="text-xl font-bold text-[#27403D] mb-2">Recibe Ofertas</h4>
                 <p className="text-gray-600">Recibe ofertas de prestamistas según tus condiciones.</p>
               </div>
-              {/* Step 3 */}
+              
               <div className="text-center">
                 <div className="text-[#E0793F] text-6xl mb-4">3</div>
                 <h4 className="text-xl font-bold text-[#27403D] mb-2">Obtén tu Préstamo</h4>
@@ -117,7 +117,7 @@ const LandingPage = () => {
           </div>
         </section>
 
-        {/* Testimonials */}
+       
         <section className="bg-white py-16">
           <div className="container mx-auto text-center">
             <h3 className="text-3xl font-bold text-[#27403D] mb-8">Testimonios</h3>
@@ -141,7 +141,7 @@ const LandingPage = () => {
           </div>
         </section>
 
-        {/* FAQ Section */}
+      
         <section className="bg-gray-100 py-16">
           <div className="container mx-auto">
             <h3 className="text-3xl font-bold text-center text-[#27403D] mb-8">Preguntas Frecuentes</h3>
@@ -167,7 +167,7 @@ const LandingPage = () => {
         </section>
       </main>
 
-      {/* Footer */}
+     
       <footer className="bg-[#27403D] text-white py-4">
         <div className="container mx-auto text-center">
           <div className="mb-2 flex align-middle justify-center">
@@ -185,8 +185,8 @@ const LandingPage = () => {
             </a>
           </div>
           <div className="mt-3">
-            <a href="#privacy" className="text-white hover:text-[#E0793F] mx-2">Política de Privacidad</a>
-            <a href="#terms" className="text-white hover:text-[#E0793F] mx-2">Términos de Uso</a>
+            <a href="#privacidad" className="text-white hover:text-[#E0793F] mx-2">Política de Privacidad</a>
+            <a href="#terminos" className="text-white hover:text-[#E0793F] mx-2">Términos de Uso</a>
           </div>
           <p className="text-sm">© 2024 Nodo. Todos los derechos reservados.</p>
         </div>

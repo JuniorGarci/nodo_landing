@@ -85,7 +85,7 @@ const LandingPage = () => {
             <div className="relative z-10">
               <h2 className="text-4xl font-bold text-[#27403D] mb-6">{text}</h2>
               <p className="text-gray-600 mb-12">Accede a préstamos con condiciones personalizadas y obtén el financiamiento que necesitas.</p>
-              <a href="https://ui-nodo-dev.azurewebsites.net/registre" className="bg-[#E0793F] text-white py-3 px-8 rounded-full hover:bg-orange-600 text-lg">Iniciar Solicitud</a>
+              <a href="https://ui-nodo-dev.azurewebsites.net/register" className="bg-[#E0793F] text-white py-3 px-8 rounded-full hover:bg-orange-600 text-lg">Iniciar Solicitud</a>
             </div>
           </div>
         </section>
